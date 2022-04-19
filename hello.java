@@ -6,5 +6,11 @@ public class Main{
         //String[]args rep sequence of arguments passed to the program from the outside
         System.out.println("Hello");
         // Displays the string followed by a new line on the screen
+        System.out.println();
+        // Prints an empty line
+        System.out.print("I");
+        System.out.print("am");
+        System.out.print("learning");
+        // prints all the three statements in on line
     }
 }
