@@ -5,5 +5,7 @@ public class Main{
         System.out.println(10 + 3)
         System.out.println(10 - 3)
         System.out.println(10 / 3)
+        // Unary operations
+        System.out.println(+5);
     }
 }
