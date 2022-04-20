@@ -1,4 +1,9 @@
 class Program {
+    /**
+     * The main method accepts an array of string arguments
+     *
+     * @param args from the command line
+     */
     public static void main(String[] args) {
         // The line below will be ignored
         // System.out.println("Hello, World");
