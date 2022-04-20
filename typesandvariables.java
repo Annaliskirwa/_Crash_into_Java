@@ -1,6 +1,8 @@
 class Main{
     public static void main(String[]args){
-        String language = "java";
+        // String language = "java";
+        var language = "java"; //string
+        var version = 10; //integer
         // Assigning a variable of type string to word java
         int cows = 5;
         cows = 11; //it will run
