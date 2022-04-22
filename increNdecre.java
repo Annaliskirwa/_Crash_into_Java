@@ -15,3 +15,22 @@ class Main {
         System.out.print(--a + " " + --b + " " + --c + " " + --d);
     }
 }
+
+// using while loop
+
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String[]args){
+        Scanner scanner = new Scanner(System.in);
+        int count = 0;
+        int inputLimit = 4;
+        String result = " ";
+        while (count < inputLimit){
+            int number = scanner.nextInt();
+            result += --number + " ";
+            ++count;
+        }
+        System.out.println(result)
+    }
+}
