@@ -5,6 +5,7 @@ class Main{
                 System.out.print(j + " ");
                 if (i == j){
                     break;
+                    // continue
                 }
             }
         }
