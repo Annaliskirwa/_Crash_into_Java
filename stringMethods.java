@@ -16,4 +16,8 @@ public static void main(String[]args){
 
     // substring(beginIndex, endIndex)
     // endsWith(suffix)
+
+    // string exceptions
+    // NullPointerException: on null strings
+    // StringOutOfBoundsException: trying to access a non-existing cahacter
 }
