@@ -12,5 +12,12 @@ class Main{
         numbers[0] = 1; // numbers: [1, 0, 0]
         numbers[1] = 2; // numbers: [1, 2, 0]
         numbers[2] = numbers[0] + numbers[1]; // numbers: [1, 2, 3]
+
+
+        // Array utility classes
+
+        // Converting an array to string
+        byte[] famousNumbers = { 0, 1, 2, 4, 8, 16, 32, 64 };
+        String arrayAsString = Arrays.toString(famousNumbers); // [0, 1, 2, 4, 8, 16, 32, 64]
     }
 }
