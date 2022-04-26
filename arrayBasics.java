@@ -5,5 +5,12 @@ class Main{
 
         int[] numberss = new int[n]; 
         //where n is the lenth of the array; creating an array using the new keyword
+
+        int length = array.length //returns number of elements in the array
+        // accessing values in the array:
+        int[] numbers = new int[3]; // numbers: [0, 0, 0]
+        numbers[0] = 1; // numbers: [1, 0, 0]
+        numbers[1] = 2; // numbers: [1, 2, 0]
+        numbers[2] = numbers[0] + numbers[1]; // numbers: [1, 2, 3]
     }
 }
