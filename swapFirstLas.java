@@ -8,4 +8,11 @@ class Main{
         nums[nums.length - 1] = nums[0];
         nums[0] = temp;
     }
+    // calling the method
+    public static void main(String[]args){
+        int[] numbers = {1,2,3,4,5};
+        System.out.println(Arrays.toString(numbers));
+        swapFirstAndLastElements(numbers);
+        System.out.println(Arrays.toString(numbers));
+    }
 }
