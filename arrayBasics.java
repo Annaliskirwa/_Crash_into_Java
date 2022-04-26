@@ -19,5 +19,10 @@ class Main{
         // Converting an array to string
         byte[] famousNumbers = { 0, 1, 2, 4, 8, 16, 32, 64 };
         String arrayAsString = Arrays.toString(famousNumbers); // [0, 1, 2, 4, 8, 16, 32, 64]
+
+        // Sorting arrays
+        long[] bigNumbers = { 200000000L, 400000000L, 100000000L, 300000000L }; // it's unsorted
+
+        Arrays.sort(bigNumbers);
     }
 }
