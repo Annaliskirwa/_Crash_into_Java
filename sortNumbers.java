@@ -5,7 +5,19 @@ import java.util.Scanner;
 
 public class Main{
     public static void sort(int[] numbers){
-        Arrays.sort(numbers);
+        //First approach using sort method
+       // Arrays.sort(numbers);
+
+       //Second appraoch using conditional statements
+       for(int i = 0; i < numbers.length; i++){
+           for (int j = 0; j < numbers.length; j++){
+               if (numbers[j] >= numbers[i]){
+                   int temp = numbers[i];
+                   numbers[i] =  numbers[j];
+                   numbers[j] = temp;
+               }
+           }
+       }
     }
 
     public static void main (String[]args){
