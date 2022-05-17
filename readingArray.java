@@ -12,7 +12,19 @@ public class readingArray {
                 arr[i] = scanner.nextInt();
             }
             System.out.println(Arrays.toString(arr));
+            foreaches(args);
         }
 
+    }
+
+    public static void foreaches(String[]args){
+        char [] characters = {'a', 'b', 'c', 'a'};
+        int counter = 0;
+        for (char ch:characters){
+            if (ch == 'a'){
+                counter++;
+            }
+        }
+        System.out.print(counter);
     }
 }
