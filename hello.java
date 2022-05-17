@@ -1,4 +1,4 @@
-public class Main{
+public class hello{
     // Baic unit of the program, contains the class keyword followed by the class name.
     public static void main(String[]args){
         // main nmethod:entry point for the java program
